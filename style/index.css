@@ -1,5 +1,418 @@
-*{
+/* mulush font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+@media screen and (min-width:992px) {
+    
+
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Header section */
+header {
+    background: #ffffff;
+    padding: 54px 130px;
+
+}
+
+nav>div {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131318;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.primary-style {
+    color: #FF5400;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 44px;
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.home {
+    color: #FF5400;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hpic1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1120px;
+    height: 500px;
+    flex-shrink: 0;
+    top: 49px;
+    border-radius: 16px;
+    position: relative;
+
+
+
+}
+
+.hsec1 {
+    position: absolute;
+    left: 13%;
+    top: 30%;
+
+
+}
+
+#hh1 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+#hp1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+
+}
+
+.sec1i {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+
+
+
+}
+
+#where {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+#when {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+#select {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+
+}
+
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    cursor: pointer;
+    border-color: white;
+
+}
+
+
+/* main section 1 */
+
+.sec-primary {
+    background: #ffffff;
+    padding: 54px 130px;
+
+}
+
+.secdiv1 {
+    display: flex;
+}
+
+.heading-primary {
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+section ul {
+    margin-left: 40px;
+
+}
+
+section li {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.text-primary {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+    margin-right: 54px;
+}
+
+
+
+
+#secpic1 {
+    width: 540px;
+    height: 550px;
+    flex-shrink: 0;
+}
+
+/* main section 2 */
+
+.sec-primary {
+    background: #ffffff;
+    padding: 54px 130px;
+
+}
+
+.heading-primary2 {
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.text-primary2 {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+    margin-right: 54px;
+    text-align: center;
+}
+.sec2pic{
+    width: 1170px;
+    height: 500px;
+}
+
+
+.sec2pic > div > img{
+    width: 573px;
+    height: 300px;
+}
+ .row{
+    
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+ }
+
+#maldives{
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+}
+#indoneshia{
+    width: 573px;
+height: 300px;
+flex-shrink: 0;
+}
+#srilanka{
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+}
+#north{
+    width: 474px;
+height: 286px;
+flex-shrink: 0;
+}
+#kashmir{
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+}
+#bangladesh{
+    width: 473px;
+height: 300px;
+flex-shrink: 0;
+}
+#bandarban{
+    width: 673px;
+height: 300px;
+flex-shrink: 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    header {
+        padding: 10px;
+    }
+
+    nav>div {
+        flex-direction: column;
+    }
+
+    nav>ul {
+        flex-direction: column;
+    }
+
+    .sec1i {
+        flex-direction: column;
+    }
+
 }
